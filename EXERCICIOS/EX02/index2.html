@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/mengao.icon.ico" type="image/x-icon">
+    <title>CRF FLAMENGO </title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- TERMO DIV {USADO PARA ESCONDER E APARECE QUANDO PASSA MOUSE OU CLICAR POR CIMA}-->
+    
+    <style>
+     h1{font-family: 'mengo', cursive; font-size: 50px; text-decoration: underline rgb(0, 0, 0); text-align: center;}
+     h2{font-family: 'mengo', cursive; font-size: 35px; text-decoration: underline rgb(0, 0, 0);}
+     h3{font-family: 'mengo', cursive; font-size: 35px; text-decoration: underline rgb(0, 0, 0);}
+     p{font-size: 20px;}
+
+     div#d2:hover {color: brown;}
+     div#d2 > video {display: none;}
+     div#d2:hover > video {display: block;}
+     a {font-size: 20px; color: black; font-weight: bold;}
+     a:visited{color: aliceblue;}
+     header{padding: 5px; background-color: #7a7a7a;border-radius: 10px;}
+     main{padding: 5px; background-color: rgb(234, 241, 247);border-radius: 10px;}
+     footer{padding: 5px; background-color: #7a7a7a;border-radius: 10px;}
+        
+    
+    </style> 
+
+</head>
+<body>
+     <!--TAGS SEPARAR -->
+     <!--HEADER: CABECALHO DO SITE -->
+     <!--MAIN: CONTEUDO DO SITE MEIO -->
+     <!--FOOTER: RODA PE DO SITE -->
+     <!--Adicionando imagens-->
+     <header>
+        <h1 class="principal" >Clube De Regatas Do Flamengo  <img src="imagens/mengao.png" alt="mengao.png"></h1>
+        <hr>
+        <h2 class="secundaria"> *TITULOS FLAMENGO ULTIMOS ANOS!<img src="imagens/trophy-icon (1).png" alt="mengao.trofeu">  </h2>
+
+     </header>
+     
+     <main>
+         <p style="color: black; font-size: 25px;" > <u>&rarr; TITULO 2022: </u></p>
+         <picture class="mengao4">
+    
+     <!--ADICIONANDO FOTOS VARIOS TAMANHOS PARA CELULAR TABLET E COMPUTADOR OU TV -->
+    
+         <source media="max-width:750px" srcset="imagens/liberta300.webp" type="image/webp">  
+         <source media="max-width:1050px" srcset="imagens/liberta700.webp" type="image/webp">
+         <img src="imagens/liberta300.webp" alt="mengao_flexivel"> 
+         
+         <div id="d2">
+            <u> <em> <strong> &rarr;COPA DO BRASIL:  Flamengo (6)1x1(5) Corinthians  </strong></em></u>
+            <video poster="imagens/liberta300.webp"  src="media/Flamengo Levantando A Taça Da Copa Do Brasil.mp4" width="300" controls ></video>
+         </div>
+         </picture>
+   
+         <picture div="mengao3">
+            <source media="max-width:750px" srcset="imagens/mengao_300.jpg" type="image/jpg"> 
+            <source media="max-width:1050px" srcset="imagens/mengao_700.jpg" type="image/jpg">
+            <img src="imagens/mengao_300.jpg" alt="mengao.flexivel">
+         
+         <div id="d2">
+            <u> <em> <strong> &rarr; LIBERTADORES: Flamengo 1x0 Atletico-PR </strong></em></u>
+            <video poster="imagens/mengao_300.jpg" src="media/Flamengo Levantando A Taça Da Libertadores 2022.mp4" width="300" controls></video>
+        </div> 
+         </picture>
+    
+      </main>
+      
+      <hr>
+    
+     <footer>
+      <audio src="Music/MengaodoMeuCoracao_www.toquesengracadosmp3.com.mp3" autoplay controls ></audio>
+      <p> <a href="index.html"rel="prev">Voltar Primeira Pagina</a> </p>
+     
+     </footer> 
+
+    
+</body>
+</html>

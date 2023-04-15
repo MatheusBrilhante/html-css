@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'prin';
+    src: url('fonte/Road_Rage.otf') format('opentype');
+    font-weight: normal;
+}
+:root{--fonte-padrao:'Times New Roman','Serif','Helvetica','Cursive';
+    --fonte-android:'Android','Cursive';
+}
+
+
+body{background-image: linear-gradient(-45deg,#731010 ,#0D0D0D,#858585 );
+background-attachment: fixed; text-align: justify;
+font-family:'Times New Roman', Times, serif;margin: auto;}
+.principal{font-family:'prin', Helvetica, sans-serif;
+background-color: #292929; color: #a80a0a; 
+text-decoration:underline #e7e3e3;border-width: 7px; border-style: solid; border-color: #722727;
+padding: 3px;box-shadow: -1px 0px 16px 10px rgba(0, 0, 0, 0.733); border-radius: 10px;margin: auto;}
+.secundaria{font-family:'prin', Helvetica, sans-serif; 
+background-color: #292929; color: #ffffff; 
+text-decoration:underline #e7e3e3;
+height: 50px; width: 1300px; border-width: 2px; border-style: solid; border-color: #ffffff;box-shadow: inset -1px 0px 16px 5px #080707b6;border-radius: 10px;margin: auto;}
+.marcacao{font-family:'prin', Helvetica, sans-serif; 
+background-color: #292929; color: #ffffff; 
+text-decoration:underline #e7e3e3; 
+height: 55px; width: 1315px; border-width: 2px; border-style: solid; border-color: #722727;
+padding: 1px;box-shadow: inset -1px 0px 16px 5px #080707be;border-radius: 10px;margin: auto;}
+.redes1{font-family:'prin', Helvetica, sans-serif; 
+background-color: #292929; color: #ffffff; 
+text-decoration:underline #e7e3e3; 
+height: 55px; width: 1300px; border-width: 2px; border-style: solid; border-color: #722727;
+padding: 1px;box-shadow: inset -1px 0px 16px 5px #080707af;border-radius: 10px;margin: auto;}
+
+h1{color: #BF2121;
+text-shadow: 1px 1px 2px #000000; font-family: 'mengo', Times, serif;margin: auto;}
+h2{color: #BF2121;
+text-shadow: 1px 1px 2px #000000; font-family: 'mengo', Times, serif;margin: auto;}
+h3{color: #BF2121; font-family: 'mengo', Times, serif;margin: auto;}
+
+p{color: #0D0D0D;}
+li{color: #0D0D0D;}
+
+nav{font-family:'prin', Helvetica, sans-serif; font-size: 35px; padding: 5px;}
+nav > a{text-decoration:underline; margin-right: 20px;}
+nav > a:hover{text-decoration: underline;}
+header{margin: auto;}
+
+.ronaldo{border: 1px;
+padding-right: 1px; padding-bottom: 1px; padding-left: 1px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px; margin-left: 400px; margin-top: -370px;}
+div#ronaldo2{ height: 80px; width: 1250px;
+border-right: 1px;border-bottom: 1px;border-left: 1px;border-top: 1px  ;padding-right: 1px; padding-bottom: 1px; padding-left: 1px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px; margin-left: 400px; margin-top: -370px;}
+.ronaldo3{border-right: 1px;border-bottom: 1px;border-left: 1px;border-top: 1px  ;padding-right: 1px; padding-bottom: 1px; padding-left: 1px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px; margin-left: 1px; margin-top: 1px;}
+div#ronaldo9{border-right: 1px;border-bottom: 1px;border-left: 1px;border-top: 1px  ;padding-right: 1px; padding-bottom: 1px; padding-left: 1px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px; margin-left: 250px; margin-top: -370px;}
+div#gabi1{border-right: 1px;border-bottom: 1px;border-left: 1px;border-top: 1px  ;padding-right: 1px; padding-bottom: 1px; padding-left: 1px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px; margin-left: 1px; margin-top: 1px;}
+div#vidal1{border-right: 1px;border-bottom: 1px;border-left: 1px;border-top: 1px  ;padding-right: 1px; padding-bottom: 1px; padding-left: 1px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px; margin-left: 400px; margin-top: -370px;}
+.marinho1{border-right: 1px;border-bottom: 1px;border-left: 1px;border-top: 1px  ;padding-right: 1px; padding-bottom: 1px; padding-left: 1px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px;margin-left: 1px; margin-top: 1px;}
+div#paginatitulos{border-right: 1px;border-bottom: 1px;border-left: 1px;border-top: 1px  ;padding-right: 1px; padding-bottom: 1px; padding-left: 93px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px;margin-left: 1px; margin-top: -201px;}
+div#paginatitulos1{border-right: 1px;border-bottom: 1px;border-left: 1px;border-top: 1px  ;padding-right: 1px; padding-bottom: 1px; padding-left: 76px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px;margin-left: 1px; margin-top: -193px;}
+div#copaliberta1{height: 250px;width: 625px;border-right: 1px;border-bottom: 1px;border-left: 1px;border-top: 1px  ;padding-right: 1px; padding-bottom: 1px; padding-left: 1px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px; margin-left: 661px; margin-top: -258px;}
+div#brasileirao{height: 250px;width: 625px;border-right: 1px;border-bottom: 1px;border-left: 1px;border-top: 1px  ;padding-right: 1px; padding-bottom: 1px; padding-left: 1px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px; margin-left: 1px; margin-top: 1px;}
+div#paginatitulos2{border-right: 1px;border-bottom: 1px;border-left: 1px;border-top: 1px  ;padding-right: 1px; padding-bottom: 1px; padding-left: 142px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px;margin-left: 1px; margin-top: -164px;}
+div#superecopa1{height: 250px;width: 625px;border-right: 1px;border-bottom: 1px;border-left: 1px;border-top: 1px  ;padding-right: 1px; padding-bottom: 1px; padding-left: 1px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px; margin-left: 661px; margin-top: -253px;}
+div#paginatitulos3{border-right: 1px;border-bottom: 1px;border-left: 1px;border-top: 1px  ;padding-right: 1px; padding-bottom: 1px; padding-left: 90px; padding-top: 1px;
+margin-right: 1px; margin-bottom: 1px;margin-left: 1px; margin-top: -164px;}
+main{margin: auto;}
+
+
+
+/* COLOCAR 1 VALOR PADDING SIMPLIFICA OS 4 LEFT RIGHT TOP BOTTOM /*
+
+/* Em HTML e ID = em CSS #  ... /*
+/*   Em HTML e CLASS= em CSS e . /*
+
+/* ID = UNICO 
+   CLASS = MULTIPLOS /*
