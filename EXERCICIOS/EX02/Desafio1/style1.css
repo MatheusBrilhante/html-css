@@ -28,7 +28,7 @@ body{font-family: 'Arial, Helvetica, sans-serif';}
 .footer1{text-align: center;padding-top: 11px;margin-top: -8px;margin-left: -8px;color: rgb(246, 246, 247);margin: auto;min-width: 320px;max-width: 1400px}
 .comp{background-color: #49d48fd8; padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;margin-left: 45px;;margin-top: 2px;;border-radius: 5px; 
 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);display: block;}
-.comp2{background-color: #1a9b5bd8;color: rgb(255, 255, 255);padding-top: 16px;padding-bottom: 2px;margin-top: 0px;text-decoration: underline;}
+.comp2{background-color: #1a9b5bd8;color: rgb(255, 255, 255);padding-top: 6px;padding-bottom: 2px;margin-top: -1px;text-decoration: underline;margin-left: -1px;margin-right: -1px;}
 .video3{display: block; padding-top: 1px;margin-left:-102px;width: 700px;height: 250px;margin-top:-14px;}
 div#c5{margin: auto;}
 main img{width: 100%;}
@@ -43,4 +43,4 @@ main a {color: #0e2415;font-weight: bold;padding: 1px 5px;background-color: #066
 ul{columns: 2; list-style-type: '\2714';text-decoration: underline;}
 div.video{background-color: #10631c;margin-bottom: 20px;margin: 0px -20px 30px -0px;padding: 20px; position: relative;padding-bottom: 55%;}
 div.video > iframe{position: absolute;top:5%;left: 5%;width: 90%;height: 90%;}
-
+main > section > h1 > a{background-color: rgba(5, 5, 5, 0);}
